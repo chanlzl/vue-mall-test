@@ -1,7 +1,7 @@
 <template>
     <div name="show">
         <ul class="goodlist">
-            <li v-for="goods in list">
+            <li v-for="goods in list" :key="goods">
                 <img v-bind:src="goods.img">
                 <p>{{goods.goodName}}</p>
             </li>
