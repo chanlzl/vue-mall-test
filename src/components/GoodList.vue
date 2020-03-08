@@ -59,7 +59,8 @@ export default {
         {
             var obj=this;
             var url="";
-            if(obj.goodId==1){
+            if(obj.goodId==1)
+            {
                 url="json/pc.json";
             }
             else if(obj.goodId==2)
